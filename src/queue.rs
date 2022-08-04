@@ -5,6 +5,7 @@ pub struct Queue<T> {
     pub len: usize
 }
 
+#[allow(dead_code)]
 impl<T> Queue<T> {
     pub fn new() -> Queue<T> {
         Queue {
